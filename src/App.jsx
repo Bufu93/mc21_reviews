@@ -30,6 +30,11 @@ const StyledApp = styled.div`
 
 	img {
 		margin-bottom: 72px;
+		@media (max-width: 768px) {
+			width: 92px;
+			height: 85px;
+			margin-bottom: 48px;
+		}
 	}
 `;
 

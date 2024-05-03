@@ -34,6 +34,7 @@ const StyledFooter = styled.div`
 	flex-direction: column;
 	align-items: center;
 	max-width: 227px;
+	width: 100%;
 	text-align: center;
 	gap: 24px;
 	margin-top: 56px;
@@ -49,7 +50,6 @@ const StyledFooter = styled.div`
 
 const StyledLink = styled.a`
 	color: rgb(23, 41, 69);
-	font-family: Open Sans;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 120%;

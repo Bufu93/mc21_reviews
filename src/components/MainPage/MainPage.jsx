@@ -29,6 +29,9 @@ export const StyledMainPageButtonsWrapper = styled.div`
 	align-items: center;
 	gap: 32px;
 	max-width: 232px;
+	@media (max-width: 768px) {
+		gap: 24px;
+	}
 `;
 
 const StyledMainPage = styled.div`
@@ -43,6 +46,10 @@ const StyledMainPage = styled.div`
 		line-height: 135%;
 		text-align: center;
 		margin-bottom: 56px;
+		@media (max-width: 768px) {
+			font-size: 22px;
+			margin-botoom: 48px;
+		}
 	}
 `;
 

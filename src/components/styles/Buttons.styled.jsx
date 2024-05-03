@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const ButtonPrimary = styled.button`
 	cursor: pointer;
 	padding: 13px 24px 13px;
-	display: inline-flex;
+	display: flex;
 	width: 100%;
+	max-width: 227px;
 	-webkit-box-pack: center;
 	justify-content: center;
 	-webkit-box-align: center;
