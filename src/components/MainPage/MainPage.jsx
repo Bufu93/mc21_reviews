@@ -2,10 +2,10 @@
 import styled from 'styled-components';
 import { ButtonPrimary } from '../styles/Buttons.styled';
 
-function MainPage({ setPage }) {
+function MainPage({ setPage, typo }) {
 	return (
 		<StyledMainPage>
-			<h3>Вам понравилось обслуживание в XXI век?</h3>
+			{typo?.title ? <h3>{typo?.title}</h3> : ''}
 			<StyledMainPageButtonsWrapper>
 				<ButtonPrimary onClick={() => setPage(true)}>Да, все здорово</ButtonPrimary>
 				<ButtonPrimary

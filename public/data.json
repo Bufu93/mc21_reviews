@@ -1,0 +1,158 @@
+{
+	"mainPage": {
+		"title": "Вам понравилось обслуживание в XXI век?"
+	},
+	"formPage": {
+		"title": "Написать в службу поддержки",
+		"description": "Расскажите, что вам не понравилось и что мы можем делать лучше. Администратор клиники, свяжется с вами и предложит решение проблемы."
+	},
+	"linksPage": {
+		"title": "Оставьте отзыв о нашей работе",
+		"description": "Обычно люди не находят времени оставить отзывы, если им всё понравилось. А вы нашли. Мы это ценим."
+	},
+	"footer": {
+		"c": "Группа компаний Медицинский центр «XXI век» © 2024",
+		"link": "Соглашение на обработку персональных данных"
+	},
+
+	"places": [
+		{
+			"name": "М. Казакова",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/238436434313/reviews/?add-review=true&ll=30.171850%2C59.867448&tab=reviews&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001079867628/30.17143%2C59.867595/tab/reviews",
+			"id": 62
+		},
+		{
+			"name": "Гражданский",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/215811477809/reviews/?add-review=true&ll=30.402744%2C60.019131&tab=reviews&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001077079054/30.403802%2C60.020026/tab/reviews",
+			"id": 61
+		},
+		{
+			"name": "Коломяжский (стомотология)",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/74101440264/reviews/?add-review=true&ll=30.294973%2C60.008478&tab=reviews&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001075893668/30.295112%2C60.008575/tab/reviews",
+			"id": 51
+		},
+		{
+			"name": "Дальневосточный",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/241564764630/reviews/?add-review=true&ll=30.458745%2C59.898864&tab=reviews&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001067401837/30.458922%2C59.898384/tab/reviews",
+			"id": 60
+		},
+		{
+			"name": "Энгельса АП",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/142601426682/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.321076%2C60.031771&mode=search&sctx=ZAAAAAgBEAAaKAoSCRo09E9wdT5AEaDGvfkN801AEhIJe4UF9wMeCD8R36RpUDQPkD8iBgABAgMEBSgKOABAup4BSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEG%2Bq3UnZMEggIZKChjaGFpbl9pZDooMjIxNjMyMjc4NCkpKYoCAJICAJoCDGRlc2t0b3AtbWFwc6oCCjIyMTYzMjI3ODSwAgE%3D&sll=30.321076%2C60.031771&sspn=0.000645%2C0.001169&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=18.63",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001054817645/30.321043%2C60.032117/tab/reviews",
+			"id": 39
+		},
+		{
+			"name": "Шаврова",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/118619630337/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.241847%2C60.027301&mode=search&sctx=ZAAAAAgBEAAaKAoSCRo09E9wdT5AEaDGvfkN801AEhIJe4UF9wMeCD8R36RpUDQPkD8iBgABAgMEBSgKOABAup4BSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEG%2Bq3UnZMEggIZKChjaGFpbl9pZDooMjIxNjMyMjc4NCkpKYoCAJICAJoCDGRlc2t0b3AtbWFwc6oCCjIyMTYzMjI3ODSwAgE%3D&sll=30.241847%2C60.027301&sspn=0.008615%2C0.015622&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001043460392/30.242817%2C60.027148/tab/reviews",
+			"id": 38
+		},
+		{
+			"name": "Гаврилина",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/111409874866/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.337149%2C60.078666&mode=search&sctx=ZAAAAAgBEAAaKAoSCRo09E9wdT5AEaDGvfkN801AEhIJe4UF9wMeCD8R36RpUDQPkD8iBgABAgMEBSgKOABA3K4HSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEGgdaf8rkDggIZKChjaGFpbl9pZDooMjIxNjMyMjc4NCkpKYoCAJICAJoCDGRlc2t0b3AtbWFwc6oCCjIyMTYzMjI3ODSwAgE%3D&sll=30.337149%2C60.078666&sspn=0.008615%2C0.015597&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001035125481/30.337575%2C60.078386/tab/reviews?m=30.337575%2C60.078386%2F11",
+			"id": 37
+		},
+		{
+			"name": "Ленская",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/170103150480/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.494085%2C59.939753&mode=search&sctx=ZAAAAAgBEAAaKAoSCRo09E9wdT5AEaDGvfkN801AEhIJe4UF9wMeCD8R36RpUDQPkD8iBgABAgMEBSgKOABAup4BSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEGso%2BvhJ8DggIZKChjaGFpbl9pZDooMjIxNjMyMjc4NCkpKYoCAJICAJoCDGRlc2t0b3AtbWFwc6oCCjIyMTYzMjI3ODSwAgE%3D&sll=30.494085%2C59.939753&sspn=0.008615%2C0.015663&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001031096941/30.493781%2C59.939823/tab/reviews",
+			"id": 36
+		},
+		{
+			"name": "Пр. Маршака",
+			"yaLink": "https://yandex.ru/maps/org/meditsinskiy_tsentr_xxi_vek/1862872650/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.446277%2C60.035432&mode=search&sctx=ZAAAAAgBEAAaKAoSCRo09E9wdT5AEaDGvfkN801AEhIJe4UF9wMeCD8R36RpUDQPkD8iBgABAgMEBSgKOABAva4HSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEGkK%2FA1%2FkEggIZKChjaGFpbl9pZDooMjIxNjMyMjc4NCkpKYoCAJICAJoCDGRlc2t0b3AtbWFwc6oCCjIyMTYzMjI3ODSwAgE%3D&sll=30.446277%2C60.035432&sspn=0.008615%2C0.015618&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001023390714/30.446215%2C60.0355/tab/reviews",
+			"id": 34
+		},
+		{
+			"name": "Коллонтай 6 к1",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1660082593/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.450534%2C59.915558&mode=search&sctx=ZAAAAAgBEAAaKAoSCVzlCYSdRj5AEQEvM2yU801AEhIJycfuAiUF9j4Rp658lufBfT8iBgABAgMEBSgKOABAAkgBagJydZ0BzcxMPaABAKgBAL0Buw0698IBep6L4JkEiYOtn%2FgGz5yU9QP7kNKSBO%2FZ7sgE1pOH84MHwMmBvgSxovf6owa6j4r2A8Pcjr0EpqPb6gWKj7%2BOBIHWn%2FK5A%2BjGj%2FAE%2BK67gASQr8DX%2BQSyj6%2BEnwOBu7LqA8rcpPgGzabBjyOhs8uXBomVv4YGiP6ohpQCggIZKChjaGFpbl9pZDooMjIxNjMyMjc4NCkpKYoCAJICAJoCDGRlc2t0b3AtbWFwc6oCCjIyMTYzMjI3ODSwAgE%3D&sll=30.450534%2C59.915558&sspn=0.008615%2C0.015675&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001018922395/30.450253%2C59.915396/tab/reviews",
+			"id": 50
+		},
+		{
+			"name": "Богатырский",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1565970854/reviews/?add-review=true&ll=30.223575%2C60.005941&tab=reviews&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001018768663/30.224499%2C60.006098/tab/reviews",
+			"id": 33
+		},
+		{
+			"name": "Брянцева",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1308877672/reviews/?add-review=true&ll=30.407506%2C60.039769&tab=reviews&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001007385418/30.407356%2C60.039686/tab/reviews",
+			"id": 31
+		},
+		{
+			"name": "Старо-Петергоффский",
+			"yaLink": "https://yandex.ru/maps/org/meditsinskiy_tsentr_xxi_vek/1127744926/reviews/?add-review=true&ll=30.275841%2C59.902967&tab=reviews&z=16",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/70000001006574324/30.2759%2C59.902991/tab/reviews",
+			"id": 29
+		},
+		{
+			"name": "Коллонтай 4",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1201909315/reviews/?add-review=true&ll=30.447148%2C59.914778&tab=reviews&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/5348553839013327/30.44687%2C59.914666/tab/reviews",
+			"id": 28
+		},
+		{
+			"name": "Погр. Гарькавого",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1203791040/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.145287%2C59.840171&mode=search&sctx=ZAAAAAgBEAAaKAoSCVzlCYSdRj5AEQEvM2yU801AEhIJycfuAiUF9j4Rp658lufBfT8iBgABAgMEBSgKOABA0K4HSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEKw9yOvQShs8uXBoICGSgoY2hhaW5faWQ6KDIyMTYzMjI3ODQpKSmKAgCSAgCaAgxkZXNrdG9wLW1hcHOqAgoyMjE2MzIyNzg0sAIB&sll=30.145287%2C59.840171&sspn=0.008615%2C0.015710&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/5348553838906329/30.145287%2C59.840206/tab/reviews?m=30.145287%2C59.840206%2F11",
+			"id": 27
+		},
+		{
+			"name": "пр. КИМа",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1226550511/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.243500%2C59.953894&mode=search&sctx=ZAAAAAgBEAAaKAoSCVzlCYSdRj5AEQEvM2yU801AEhIJycfuAiUF9j4Rp658lufBfT8iBgABAgMEBSgKOABAvp4BSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEFwMmBvgSCAhkoKGNoYWluX2lkOigyMjE2MzIyNzg0KSkpigIAkgIAmgIMZGVza3RvcC1tYXBzqgIKMjIxNjMyMjc4NLACAQ%3D%3D&sll=30.243500%2C59.953894&sspn=0.008615%2C0.015656&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/5348553838807043/30.242346%2C59.953897/tab/reviews",
+			"id": 26
+		},
+		{
+			"name": "Гастелло",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1112836219/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.327681%2C59.858539&mode=search&sctx=ZAAAAAgBEAAaKAoSCVzlCYSdRj5AEQEvM2yU801AEhIJycfuAiUF9j4Rp658lufBfT8iBgABAgMEBSgKOABAoq4HSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEF79nuyASCAhkoKGNoYWluX2lkOigyMjE2MzIyNzg0KSkpigIAkgIAmgIMZGVza3RvcC1tYXBzqgIKMjIxNjMyMjc4NLACAQ%3D%3D&sll=30.327681%2C59.858539&sspn=0.008615%2C0.015702&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/5348553838548143/30.327256%2C59.858422/tab/reviews",
+			"id": 22
+		},
+		{
+			"name": "Моравский",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1074714488/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.422117%2C59.836087&mode=search&sctx=ZAAAAAgBEAAaKAoSCVzlCYSdRj5AEQEvM2yU801AEhIJycfuAiUF9j4Rp658lufBfT8iBgABAgMEBSgKOABA5K4HSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEF%2BK67gASCAhkoKGNoYWluX2lkOigyMjE2MzIyNzg0KSkpigIAkgIAmgIMZGVza3RvcC1tYXBzqgIKMjIxNjMyMjc4NLACAQ%3D%3D&sll=30.422117%2C59.836087&sspn=0.010606%2C0.019344&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.59",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/5348552841441737/30.42068%2C59.836365/tab/reviews?m=30.42068%2C59.836365%2F11",
+			"id": 19
+		},
+		{
+			"name": "Коломяжский 28",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1104136074/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.295162%2C60.007277&mode=search&sctx=ZAAAAAgBEAAaKAoSCVzlCYSdRj5AEQEvM2yU801AEhIJycfuAiUF9j4Rp658lufBfT8iBgABAgMEBSgKOABA5K4HSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEF%2BK67gASCAhkoKGNoYWluX2lkOigyMjE2MzIyNzg0KSkpigIAkgIAmgIMZGVza3RvcC1tYXBzqgIKMjIxNjMyMjc4NLACAQ%3D%3D&sll=30.295162%2C60.007277&sspn=0.008615%2C0.015631&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/5348552839771261/30.294931%2C60.007104/tab/reviews",
+			"id": 18
+		},
+		{
+			"name": "Щербакова",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/9427768141/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.296410%2C60.028609&mode=search&sctx=ZAAAAAgBEAAaKAoSCVzlCYSdRj5AEQEvM2yU801AEhIJycfuAiUF9j4Rp658lufBfT8iBgABAgMEBSgKOABA2q4HSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgELio%2B%2FjgSI%2FqiGlAKCAhkoKGNoYWluX2lkOigyMjE2MzIyNzg0KSkpigIAkgIAmgIMZGVza3RvcC1tYXBzqgIKMjIxNjMyMjc4NLACAQ%3D%3D&sll=30.296410%2C60.028609&sspn=0.008615%2C0.015621&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/5348552838535284/30.295922%2C60.028746/tab/reviews",
+			"id": 24
+		},
+		{
+			"name": "Сикейроса",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1028431233/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.327726%2C60.033517&mode=search&sctx=ZAAAAAgBEAAaKAoSCVzlCYSdRj5AEQEvM2yU801AEhIJycfuAiUF9j4Rp658lufBfT8iBgABAgMEBSgKOABAwp4BSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEFzabBjyOCAhkoKGNoYWluX2lkOigyMjE2MzIyNzg0KSkpigIAkgIAmgIMZGVza3RvcC1tYXBzqgIKMjIxNjMyMjc4NLACAQ%3D%3D&sll=30.327726%2C60.033517&sspn=0.008615%2C0.015619&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/5348552838531767/30.327343%2C60.033511/tab/reviews",
+			"id": 15
+		},
+		{
+			"name": "Марата",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1052936122/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.351225%2C59.924113&mode=search&sctx=ZAAAAAgBEAAaKAoSCVzlCYSdRj5AEQEvM2yU801AEhIJycfuAiUF9j4Rp658lufBfT8iBgABAgMEBSgKOABAp64HSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEFgbuy6gOCAhkoKGNoYWluX2lkOigyMjE2MzIyNzg0KSkpigIAkgIAmgIMZGVza3RvcC1tYXBzqgIKMjIxNjMyMjc4NLACAQ%3D%3D&sll=30.351225%2C59.924113&sspn=0.008615%2C0.015671&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/5348552838531766/30.351081%2C59.924087/tab/reviews",
+			"id": 14
+		},
+		{
+			"name": "Большой Сампсониевский",
+			"yaLink": "https://yandex.ru/maps/org/xxi_vek/1051004495/reviews/?add-review=true&display-text=XXI%20%D0%B2%D0%B5%D0%BA&ll=30.341991%2C59.969605&mode=search&sctx=ZAAAAAgBEAAaKAoSCVzlCYSdRj5AEQEvM2yU801AEhIJycfuAiUF9j4Rp658lufBfT8iBgABAgMEBSgKOABA6q4HSAFqAnJ1nQHNzEw9oAEAqAEAvQG7DTr3wgEFuo%2BK9gOCAhkoKGNoYWluX2lkOigyMjE2MzIyNzg0KSkpigIAkgIAmgIMZGVza3RvcC1tYXBzqgIKMjIxNjMyMjc4NLACAQ%3D%3D&sll=30.341991%2C59.969605&sspn=0.008615%2C0.015649&tab=reviews&text=%7B%22text%22%3A%22XXI%20%D0%B2%D0%B5%D0%BA%22%2C%22what%22%3A%5B%7B%22attr_name%22%3A%22chain_id%22%2C%22attr_values%22%3A%5B%222216322784%22%5D%7D%5D%7D&z=14.89",
+			"gisLink": "https://2gis.ru/spb/branches/5348561428438697/firm/5348552838531765/30.342234%2C59.969768/tab/reviews",
+			"id": 12
+		}
+	]
+}

@@ -1,14 +1,16 @@
+/* eslint-disable react/prop-types */
 import styled from 'styled-components';
 import { StyledMainPageButtonsWrapper } from '../MainPage/MainPage';
 import { LinkPrimary } from '../styles/Buttons.styled';
 import yaIcon from '../../assets/ya.svg';
 import gisIcon from '../../assets/gis.svg';
 
-function AGReviewsPage() {
+function AGReviewsPage({ place, typo }) {
+	console.log(typo);
 	return (
 		<StyledAGReviewsPage>
-			<h3>Оставьте отзыв о нашей работе</h3>
-			<p>Обычно люди не находят времени оставить отзывы, если им всё понравилось. А вы нашли. Мы это ценим.</p>
+			{typo?.title ? <h3>{typo?.title}</h3> : ''}
+			{typo?.description ? <p>{typo?.description}</p> : ''}
 			<StyledMainPageButtonsWrapper>
 				<LinkPrimary
 					rel="noopener noreferrer"
@@ -16,7 +18,7 @@ function AGReviewsPage() {
 					$color="#172945"
 					$HColor="#FFFFFF"
 					$HBg="#82bf31"
-					href={`http://yandex.ru`}
+					href={place.yaLink}
 				>
 					<img src={yaIcon} alt="" />
 					Яндекс Карты
@@ -27,7 +29,7 @@ function AGReviewsPage() {
 					$color="#172945"
 					$HColor="#FFFFFF"
 					$HBg="#82bf31"
-					href={`http://2gis.ru`}
+					href={place.gisLink}
 				>
 					<img src={gisIcon} alt="" />
 					2ГИС
@@ -51,6 +53,9 @@ const StyledAGReviewsPage = styled.div`
 		line-height: 135%;
 		text-align: center;
 		margin-bottom: 16px;
+		@media (max-width: 768px) {
+			font-size: 22px;
+		}
 	}
 	p {
 		font-size: 16px;
@@ -61,5 +66,9 @@ const StyledAGReviewsPage = styled.div`
 		max-width: 416px;
 		color: #172945;
 		margin-bottom: 56px;
+		@media (max-width: 768px) {
+			font-size: 15px;
+			margin-bottom: 48px;
+		}
 	}
 `;

@@ -10,8 +10,7 @@ function Footer() {
 				<br /> @ 2024
 			</p>
 			<ButtonPrimary
-				as="a"
-				href="https://mc21.ru"
+				onClick={() => window.location.replace('https://mc21.ru')}
 				rel="noopener noreferrer"
 				$bg="#FFFFFF"
 				$color="#172945"

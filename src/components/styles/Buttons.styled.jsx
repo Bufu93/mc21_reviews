@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ButtonPrimary = styled.button`
+	align-self: center;
 	cursor: pointer;
 	padding: 13px 24px 13px;
 	display: flex;
@@ -30,12 +31,15 @@ export const ButtonPrimary = styled.button`
 		color: ${({ $HColor = '#172945' }) => $HColor};
 		background-color: ${({ $HBg = '#fff' }) => $HBg};
 	}
+	&:disabled {
+		opacity: 0.5;
+	}
 `;
 
-export const LinkPrimary = styled.button`
+export const LinkPrimary = styled.a`
 	cursor: pointer;
-	padding: 13px 24px 13px;
-	display: inline-flex;
+	padding: 5px 24px 5px;
+	display: flex;
 	width: 100%;
 	-webkit-box-pack: center;
 	justify-content: center;
@@ -51,7 +55,7 @@ export const LinkPrimary = styled.button`
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 	outline: none;
 	transition: color 300ms ease, background-color 300ms ease, border-color 300ms ease;
-	max-height: 46px;
+	height: 30px;
 	gap: 4px;
 	/* @media (max-width: 768px) {
         min-width: 290px;
