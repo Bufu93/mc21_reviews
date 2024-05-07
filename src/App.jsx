@@ -1,18 +1,22 @@
-import { useParams } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import logo from './assets/logo.svg';
-import MainPage from './components/MainPage/MainPage';
-import Footer from './components/Footer/Footer';
-import { useEffect, useState } from 'react';
-import MCReviewsPage from './components/MCReviewsPage/MCReviewsPage';
+import success from './assets/Vector.svg';
 import AGReviewsPage from './components/AGReviewsPage/AGReviewsPage';
-import data from '../public/data.json';
+import Footer from './components/Footer/Footer';
+import MCReviewsPage from './components/MCReviewsPage/MCReviewsPage';
+import MainPage from './components/MainPage/MainPage';
+import data from '/public/data.json';
 
 function App() {
-	const params = useParams();
-	const [page, setPage] = useState(null);
-	const foundPlace = data.places.find((place) => place.id.toString() === params.id.toString());
-	console.log({ foundPlace, params });
+	const [page, setPage] = useState('main');
+
+	// main, links, form, thx
+
+	const searchParams = new URLSearchParams(window.location.search);
+	const paramValue = searchParams.get('ap');
+	const foundPlace = data.places.find((place) => place.id?.toString() === paramValue?.toString());
+	console.log({ foundPlace, paramValue });
 
 	useEffect(() => {
 		if (!foundPlace) {
@@ -23,17 +27,41 @@ function App() {
 	return (
 		<StyledApp>
 			<img src={logo} alt="logo" />
-			{page === null ? (
-				<MainPage typo={data?.mainPage} setPage={setPage} />
-			) : page ? (
+			{page === 'thx' ? (
+				<ThxMessage>
+					<img src={success} alt="logo" />
+					<h3>Ваше сообщение отправлено</h3>
+				</ThxMessage>
+			) : page === 'links' ? (
 				<AGReviewsPage typo={data?.linksPage} place={foundPlace} />
+			) : page === 'form' ? (
+				<MCReviewsPage typo={data?.formPage} place={foundPlace} setPage={setPage} />
 			) : (
-				<MCReviewsPage typo={data?.formPage} place={foundPlace} />
+				<MainPage typo={data?.mainPage} setPage={setPage} />
 			)}
 			<Footer typo={data?.footer} />
 		</StyledApp>
 	);
 }
+
+const ThxMessage = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	h3 {
+		color: rgb(0, 117, 172);
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 135%;
+		text-align: center;
+		margin-bottom: 16px;
+		@media (max-width: 768px) {
+			font-size: 20px;
+		}
+	}
+`;
+
 const StyledApp = styled.div`
 	min-width: 290px;
 	padding-top: 56px;

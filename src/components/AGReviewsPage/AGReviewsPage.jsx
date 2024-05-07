@@ -6,7 +6,6 @@ import yaIcon from '../../assets/ya.svg';
 import gisIcon from '../../assets/gis.svg';
 
 function AGReviewsPage({ place, typo }) {
-	console.log(typo);
 	return (
 		<StyledAGReviewsPage>
 			{typo?.title ? <h3>{typo?.title}</h3> : ''}

@@ -5,10 +5,12 @@ import { useState } from 'react';
 import ReactInputMask from 'react-input-mask';
 import styled from 'styled-components';
 import { ButtonPrimary } from '../styles/Buttons.styled';
+import { fetchReviews } from '../../http';
+import dayjs from 'dayjs';
 
-function MCReviewsPage({ typo }) {
+function MCReviewsPage({ typo, place, setPage }) {
 	const [inputsValue, setInputsValue] = useState({
-		radio: 'y',
+		radio: 'n',
 		text: '',
 		date: null,
 		fio: '',
@@ -20,8 +22,10 @@ function MCReviewsPage({ typo }) {
 		date: null,
 		text: null,
 	});
+	const [isLoading, setIsLoading] = useState(false);
 
-	const allFieldsAreNull = Object.values(formErrors).every((value) => value === null);
+	const allFieldsAreNull =
+		Object.values(formErrors).every((value) => value === null) && Object.values(inputsValue).every((value) => value !== '' && !isLoading);
 
 	const handleRadioChange = (event) => {
 		setInputsValue((prev) => ({ ...prev, radio: event.target.value }));
@@ -56,7 +60,31 @@ function MCReviewsPage({ typo }) {
 		setInputsValue((prev) => ({ ...prev, date: value }));
 	};
 
-	console.log(formErrors);
+	const onHandleForm = (event) => {
+		event.preventDefault();
+		setIsLoading(true);
+		fetchReviews({
+			fio: inputsValue.fio,
+			phone: '+' + inputsValue.phone.replace(/[^\d]/g, ''),
+			dateofbirth: dayjs(inputsValue.date).format('DD.MM.YYYY'),
+			text: inputsValue.text,
+			filial: place.id,
+			feedback: inputsValue.radio === 'y' ? true : false,
+		}).then((result) => {
+			setIsLoading(false);
+			if (result.success) {
+				setInputsValue({
+					radio: 'n',
+					text: '',
+					date: null,
+					fio: '',
+					phone: '',
+				});
+				setPage('thx');
+			}
+		});
+	};
+
 	return (
 		<StyledMCReviewsPage>
 			{typo?.title ? <h3>{typo?.title}</h3> : ''}
@@ -98,7 +126,9 @@ function MCReviewsPage({ typo }) {
 						<FormControlLabel value={'n'} control={<Radio />} label="Нет" />
 					</RadioGroup>
 				</RadioWrapper>
-				<ButtonPrimary disabled={allFieldsAreNull ? false : true}>Отправить</ButtonPrimary>
+				<ButtonPrimary onClick={onHandleForm} disabled={allFieldsAreNull ? false : true}>
+					Отправить
+				</ButtonPrimary>
 			</StyledForm>
 		</StyledMCReviewsPage>
 	);
@@ -124,7 +154,7 @@ const StyledForm = styled.form`
 		font-size: 12px;
 		font-weight: 400;
 		line-height: 160%;
-		height: 18px;
+		height: 20px;
 	}
 `;
 

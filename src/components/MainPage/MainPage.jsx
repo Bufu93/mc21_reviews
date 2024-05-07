@@ -7,9 +7,9 @@ function MainPage({ setPage, typo }) {
 		<StyledMainPage>
 			{typo?.title ? <h3>{typo?.title}</h3> : ''}
 			<StyledMainPageButtonsWrapper>
-				<ButtonPrimary onClick={() => setPage(true)}>Да, все здорово</ButtonPrimary>
+				<ButtonPrimary onClick={() => setPage('links')}>Да, все здорово</ButtonPrimary>
 				<ButtonPrimary
-					onClick={() => setPage(false)}
+					onClick={() => setPage('form')}
 					$color="#ED5736"
 					$bg="#FFFFFF"
 					$borderColor="#ED5736"
